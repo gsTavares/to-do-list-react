@@ -8,7 +8,7 @@ React is one of the most famous development tool for web (front-end only) and mo
 
 ## Styling and management of HTTP requests
 This project use's the **tailwindcss** library. A good styling and responsiviness are essential for all web applications, and this lib are perfect for that <br>
-All HTTTP request are made with **Axios**
+All HTTP request are made with **Axios**
 
 
 ## The backend structure
