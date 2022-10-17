@@ -1,11 +1,13 @@
 import { Eye, House, Key, SignIn, User, X } from "phosphor-react";
 import { useState } from "react";
+import Menu from "../components/Menu";
 
 export default function Login() {
     const [show, setShow] = useState(false);
 
     return (
         <div className="w-full bg-gradient-to-b from-slate-900 to-slate-700 font-ubuntu text-slate-200">
+            <Menu />
             <form className="flex flex-col gap-y-5 py-5 px-3 h-[100vh]">
                 <div className="text-3xl flex items-center justify-center">
                     <h1>Login</h1>
