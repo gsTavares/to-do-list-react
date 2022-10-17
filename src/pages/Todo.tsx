@@ -23,13 +23,6 @@ export default function () {
                     <label htmlFor="description">Description</label>
                     <textarea className="h-24 rounded-md px-3 py-2 leading-relaxed" name="description" />
 
-                    <label className="mt-2" htmlFor="estipulatedCompleteTime">Time to complete</label>
-                    <div className="flex justify-between">
-                        <input className="w-1/4 px-2 py-1 rounded-md" type={'text'} name="hours" placeholder="HH" maxLength={2} max={2} />
-                        <input className="w-1/4 px-2 py-1 rounded-md" type={'text'} name="minutes" placeholder="mm" maxLength={2} max={2} />
-                        <input className="w-1/4 px-2 py-1 rounded-md" type={'text'} name="seconds" placeholder="ss" maxLength={2} max={2} />
-                    </div>
-
                     <button
                         className="mt-3 flex items-center justify-center p-2 bg-teal-200 rounded-md hover:shadow-md transition-shadow ease-in-out"
                     >
